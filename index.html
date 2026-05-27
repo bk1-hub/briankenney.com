@@ -180,19 +180,17 @@
                 <li id="contact-info"></li>
             </ul>
         </div>
-        <script>
-          // Email obfuscation
-          var user = "brianfkenney";
-          var domain = "gmail.com";
-          var contactHTML = '<span class="race-title">Contact Information</span><br>' +
-                            '<a href="mailto:' + user + '@' + domain + '">Email Me</a>';
-          document.getElementById('contact-info').innerHTML = contactHTML;
-        </script>
 
         <div class="section">
             <em>References available upon request</em>
         </div>
     </div>
+    <script>
+      var user = "brianfkenney";
+      var domain = "gmail.com";
+      var contactHTML = '<span class="race-title">Contact Information</span><br>' +
+                        '<a href="mailto:' + user + '@' + domain + '">Email Me</a>';
+      document.getElementById('contact-info').innerHTML = contactHTML;
+    </script>
 </body>
 </html>
-
