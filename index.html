@@ -27,12 +27,13 @@
             margin-bottom: 30px;
         }
         .photo {
-            width: 160px;
-            height: 160px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             object-fit: cover;
+            object-position: center 20%; /* Adjust this value as needed */
             margin-right: 30px;
-            border: 2px solid #003366;
+            border: 8px solid #003366;
         }
         h1, h2 {
             color: #003366;
@@ -73,6 +74,7 @@
 <body>
     <div class="container">
         <div class="header">
+            <!-- Replace 'brian.jpg' with your actual file name if needed -->
             <img src="brian.jpg" alt="Brian's Photo" class="photo">
             <div>
                 <h1>Sailing Resume</h1>
@@ -103,94 +105,4 @@
                 <li>
                     <span class="race-title">‘Round the Island Race (2025)</span><br>
                     1st in Class, 13th Overall<br>
-                    <span class="boat-info">Cal33 "Shannon" | PHRF Class 5 Spinnaker E</span><br>
-                    <span class="roles">Positions: Headsail Trimmer, Navigator, Driver</span>
-                </li>
-                <li>
-                    <span class="race-title">Race to Baltimore (2025)</span><br>
-                    2nd Place<br>
-                    <span class="boat-info">J33 "Delirium" | PHRF A</span><br>
-                    <span class="roles">Positions: Headsail Trimmer, Navigator</span>
-                </li>
-                <li>
-                    <span class="race-title">Navy Fall Race to Oxford (2025)</span><br>
-                    4th in Class, 9th Overall<br>
-                    <span class="boat-info">J33 "Delirium" | ORC</span><br>
-                    <span class="roles">Positions: Headsail Trimmer, Navigator</span>
-                </li>
-                <li>
-                    <span class="race-title">Fall Race to Solomons (2025)</span><br>
-                    3rd in Class<br>
-                    <span class="boat-info">J33 "Delirium"</span><br>
-                    <span class="roles">Positions: Headsail Trimmer, Navigator</span>
-                </li>
-                <li>
-                    <span class="race-title">Navy Fall Race to Oxford (2025)</span><br>
-                    6th in Class<br>
-                    <span class="boat-info">J33 "Delirium"</span><br>
-                    <span class="roles">Positions: Headsail Trimmer, Navigator</span>
-                </li>
-                <li>
-                    <span class="race-title">Fall Race to Solomons (2024)</span><br>
-                    4th in Class<br>
-                    <span class="boat-info">J33 "Delirium"</span><br>
-                    <span class="roles">Position: Headsail Trimmer</span>
-                </li>
-                <li>
-                    <span class="race-title">Navy Fall Race to Cambridge (2024)</span><br>
-                    5th in Class<br>
-                    <span class="boat-info">J33 "Delirium"</span>
-                </li>
-                <li>
-                    <span class="race-title">Crab Cup (2024)</span><br>
-                    1st in Class<br>
-                    <span class="boat-info">Rainbow 24 "Diablo"</span><br>
-                    <span class="roles">Position: Co-Skipper</span>
-                </li>
-                <li>
-                    <span class="race-title">Helly Hansen Worlds (2024)</span><br>
-                    7th Place<br>
-                    <span class="boat-info">Farr 40 "Senatore" | ORC</span><br>
-                    <span class="roles">Positions: Mast, Floater</span>
-                </li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Certifications & Additional Experience</h2>
-            <ul>
-                <li>Current NREMT (National Registry Emergency Medical Technician)</li>
-                <li>Former Skipper, 39'6" Metal Craft Marine Aluminum Rescue Boat</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Navigation and tactical planning</li>
-                <li>Headsail trimming and sail handling</li>
-                <li>Race driving and helming</li>
-                <li>Crew leadership and safety management</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Contact</h2>
-            <ul>
-                <li id="contact-info"></li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <em>References available upon request</em>
-        </div>
-    </div>
-    <script>
-      var user = "brianfkenney";
-      var domain = "gmail.com";
-      var contactHTML = '<span class="race-title">Contact Information</span><br>' +
-                        '<a href="mailto:' + user + '@' + domain + '">Email Me</a>';
-      document.getElementById('contact-info').innerHTML = contactHTML;
-    </script>
-</body>
-</html>
+                    <span class="boat-info">Cal33 "
